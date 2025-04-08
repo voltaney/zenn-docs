@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Dracula Theme",
-  "pasteImage.insertPattern": "![${currentFileName}](/${imageFilePath})",
+  "pasteImage.insertPattern": "![${imageFileNameWithoutExt}](/${imageFilePath})",
   "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}",
   "pasteImage.basePath": "${projectRoot}",
   "pasteImage.showFilePathConfirmInputBox": true,
