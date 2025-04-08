@@ -3,7 +3,7 @@ title: "WinUI3でPackaged/Unpackagedの両方に対応するための方策"
 emoji: "📦"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["winui3", "csharp", "dotnet"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -130,7 +130,7 @@ _Packaged形式_
 [WinUIEx](https://github.com/dotMorten/WinUIEx)（WinUI3のWindowを拡張したライブラリ）の[サンプルコード](https://github.com/dotMorten/WinUIEx/blob/v2.5.1/src/WinUIExSample/App.xaml.cs)なんかではこの方法が取られています。
 パッケージ形式に基づいて`.csproj`で特定の定数を定義し、`#if`ディレクティブで分岐させる方法です。
 
-### `.csproj`の追記
+### `.csproj`で定数を定義
 
 ここでは例としてPackaged形式の時に`PACKAGED`という定数を定義します。
 
