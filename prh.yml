@@ -1,0 +1,32 @@
+# ========================================
+# 「ics.media」や「テキスト校正くん」の日本語校正辞書
+#
+# 作成者 : 池田 泰延
+# ========================================
+version: 1
+
+# 校正辞書はモジュールとして分離してます
+imports:
+  # 誤字
+  - node_modules/textlint-rule-preset-icsmedia/dict/prh_idiom.yml
+
+  # ひらく漢字
+  # - node_modules/textlint-rule-preset-icsmedia/dict/prh_open_close.yml
+
+  # 冗長な表現
+  - node_modules/textlint-rule-preset-icsmedia/dict/prh_redundancy.yml
+
+  # 重言
+  - node_modules/textlint-rule-preset-icsmedia/dict/prh_duplicate.yml
+
+  # 外来語カタカナ表記
+  # - node_modules/textlint-rule-preset-icsmedia/dict/prh_cho_on.yml
+
+  # 固有名詞
+  - node_modules/textlint-rule-preset-icsmedia/dict/prh_corporation.yml
+
+  # 技術用語
+  - node_modules/textlint-rule-preset-icsmedia/dict/prh_web_technology.yml
+
+# ルールは以下を参照。
+# https://github.com/vvakame/prh/tree/master/misc

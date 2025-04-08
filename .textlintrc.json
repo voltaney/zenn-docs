@@ -1,0 +1,28 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [".md"]
+    },
+    "mdx": true
+  },
+  "filters": { "comments": true },
+  "rules": {
+    "ja-unnatural-alphabet": true,
+    "max-ten": true,
+    "no-doubled-joshi": true,
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "skipPatterns": ["/import\\s.*;/i"]
+      },
+      "ja-no-mixed-period": {
+        "allowEmojiAtEnd": true
+      },
+      "max-kanji-continuous-len": false,
+      "no-exclamation-question-mark": false
+    },
+    "preset-jtf-style": true,
+    "prh": {
+      "rulePaths": ["prh.yml"]
+    }
+  }
+}

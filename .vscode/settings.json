@@ -5,5 +5,9 @@
   "pasteImage.basePath": "${projectRoot}",
   "pasteImage.showFilePathConfirmInputBox": true,
   "pasteImage.filePathConfirmInputBoxMode": "onlyName",
-  "pasteImage.defaultName": ""
+  "pasteImage.defaultName": "",
+  "textlint.languages": ["mdx", "markdown"],
+  "textlint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false
 }
