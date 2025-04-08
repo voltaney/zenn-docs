@@ -1,6 +1,6 @@
 ---
-title: "WinUI3のPackaged/Unpackagedで実装分岐"
-emoji: "🎉"
+title: "WinUI3でPackaged/Unpackagedの両方に対応するための方策"
+emoji: "📦"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["winui3", "csharp", "dotnet"]
 published: false
