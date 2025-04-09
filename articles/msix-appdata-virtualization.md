@@ -32,7 +32,7 @@ published: true
 
 <!-- textlint-disable -->
 
-本記事では実際にこの当たりの挙動を確認します。なお、パッケージ化された環境においては、AppData操作用に[`Windows.Storage.ApplicationData`API](https://learn.microsoft.com/ja-jp/uwp/api/windows.storage.applicationdata?view=winrt-26100)が用意されていますが、今回はあくまでもリダイレクトの挙動を確認することが目的なので多用しません。
+本記事では実際にこの当たりの挙動を確認します。なお、パッケージ化された環境においてはAppData操作用に[`Windows.Storage.ApplicationData`API](https://learn.microsoft.com/ja-jp/uwp/api/windows.storage.applicationdata?view=winrt-26100)が用意されていますが、今回はあくまでもリダイレクトの挙動を確認することが目的なので多用しません。
 
 <!-- textlint-enable -->
 
