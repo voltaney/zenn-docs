@@ -29,5 +29,8 @@
     "titleBar.inactiveBackground": "#acecfe99",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#acecfe"
+  "peacock.color": "#acecfe",
+  "markdownlint.config": {
+    "no-bare-urls": false
+  }
 }
