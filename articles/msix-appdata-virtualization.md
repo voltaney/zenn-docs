@@ -204,8 +204,7 @@ File.ReadAllText：
 [C:\Users\biz\AppData\Local\MSIX_TEST]のファイル一覧
 sample.txt
 
-[C:\Users\biz\AppData\Local\Packages\b8710d43-ca04-4c6d-ad91-0c86f3ba55d3_tbq0xhjce8r70\LocalCache\Local\MSIX_TEST]のフ ァイル一覧
-
+[C:\Users\biz\AppData\Local\Packages\b8710d43-ca04-4c6d-ad91-0c86f3ba55d3_tbq0xhjce8r70\LocalCache\Local\MSIX_TEST]のファイル一覧
 ★ ファイルを読み込み
 [C:\Users\biz\AppData\Local\MSIX_TEST\sample.txt]
 File.Exists：True
