@@ -5,7 +5,12 @@
     },
     "mdx": true
   },
-  "filters": { "comments": true },
+  "filters": {
+    "comments": true,
+    "allowlist": {
+      "allow": ["/:::.*/"]
+    }
+  },
   "rules": {
     "ja-unnatural-alphabet": true,
     "max-ten": true,
