@@ -3,12 +3,12 @@ title: "WinUI3のFlyoutのスタイルを変更する"
 emoji: "🐦"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["winui3", "csharp", "dotnet", "xaml"]
-published: false
+published: true
 ---
 
 ## はじめに
 
-WinUI3の`Flyout`のスタイル指定方法が他のコンポーネントに比べて少し特殊だったので備忘録です。結論をお急ぎの方は[Flyout自体のスタイルの変更方法](#Flyout自体のスタイルの変更方法)セクションへ。
+WinUI3の`Flyout`のスタイル指定方法が他のコンポーネントに比べて少し特殊だったので備忘録です。結論をお急ぎの方は[Flyout自体のスタイルの変更方法](#flyout自体のスタイルの変更方法)セクションへ。
 
 ## Flyoutとは
 
