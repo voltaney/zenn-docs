@@ -31,7 +31,7 @@ WinUI3では`Button`に`Flyout`属性を付けることができ、クリック�
 
 ## デフォルトスタイルの問題点
 
-大変便利なのですが、下記のように長い文章を表示させようとすると、`TextWrapping`を有効にしていても改行されずに横スクロースされてしまいます。
+大変便利なのですが、下記のように長い文章を表示させようとすると、`TextWrapping`を有効にしていても改行されずに横スクロールされてしまいます。
 
 ![flyout-example1](/images/winui3-flyout-style/flyout-example1.png)
 
